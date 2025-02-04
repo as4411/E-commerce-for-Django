@@ -177,100 +177,10 @@ The following extensions are stable and ready for use:
 * django_oscar_invoices_ - Invoices or receipts generation for the
   Oscar
 
-.. _django-oscar-api: https://github.com/django-oscar/django-oscar-api
-.. _django-oscar-odin: https://github.com/django-oscar/django-oscar-odin
-.. _django-oscar-adyen: https://github.com/django-oscar/django-oscar-adyen
-.. _django-oscar-datacash: https://github.com/django-oscar/django-oscar-datacash
-.. _django-oscar-paymentexpress: https://github.com/django-oscar/django-oscar-paymentexpress
-.. _`Payment Express`: http://www.paymentexpress.com
-.. _DataCash: http://www.datacash.com/
-.. _django-oscar-paypal: https://github.com/django-oscar/django-oscar-paypal
-.. _`Express Checkout`: https://www.paypal.com/uk/cgi-bin/webscr?cmd=_additional-payment-ref-impl1
-.. _`PayFlow Pro`: https://merchant.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=merchant/payment_gateway
-.. _django-oscar-accounts: https://github.com/django-oscar/django-oscar-accounts
-.. _django-oscar-easyrec: https://github.com/django-oscar/django-oscar-easyrec
-.. _EasyRec: http://easyrec.org/
-.. _django-oscar-stores: https://github.com/django-oscar/django-oscar-stores
-.. _django-oscar-sagepay-direct: https://github.com/django-oscar/django-oscar-sagepay-direct
-.. _eWay: https://www.eway.com.au
-.. _django_oscar_docdata: https://github.com/django-oscar/django-oscar-docdata
-.. _Docdata: https://www.docdatapayments.com/
-.. _django_oscar_invoices: https://github.com/django-oscar/django-oscar-invoices
-
-The following are community-written extensions:
-
-* django-oscar-payments_ - Pluggable payments for Oscar
-
-* oscar-sagepay_ - Payment integration with Sage Pay
-
-* django-oscar-support_ - Customer services and ticketing plugin for Oscar
-
-* django-oscar-api-checkout_ - Oscar API Checkout is a layer on top of
-  django-oscar and django-oscar-api, adding support for more complex and
-  multiple payment options during an API checkout.
-
-* django-oscar-bundles_ - Oscar Bundles adds multi-product bundles to
-  django-oscar.
-
-* django-oscar-bluelight_ - `Bluelight Specials`_ is a layer on-top of
-  django-oscar that adds support for more complex offers and vouchers,
-  including conjunctive and disjunctive compound conditions.
-
-* django-oscar-cch_ - Oscar CCH is a plugin for django-oscar adding support
-  for calculating taxes using the Wolters Kluwer `CCH Sales Tax Office`_ SOAP
-  API.
-
-* django-oscar-cybersource_ - Oscar CyberSource is a plugin for Oscar API
-  Checkout that makes it possible to use
-  `CyberSource Secure Acceptance Silent Order Post`_ as an order payment
-  method.
-
-* django-oscar-wfrs_ - Oscar WFRS is a plugin for django-oscar-api-checkout_
-  that makes it possible to use `Wells Fargo Retail Services`_ as an order
-  payment method.
-  
-* django-oscar-zarinpal-gateway_ - Payment gateway integration for Zarinpal Payments in django-oscar. Zarinpal Payments is a large payment gateway based in The I.R. Iran .
-
-Let us know if you're writing a new one!
-
-.. _django-oscar-payments: https://github.com/Lacrymology/django-oscar-payments
-.. _oscar-sagepay: https://github.com/udox/oscar-sagepay
-.. _django-oscar-support: https://github.com/SalahAdDin/django-oscar-support
-.. _django-oscar-api-checkout: https://github.com/thelabnyc/django-oscar-api-checkout
-.. _django-oscar-bundles: https://github.com/thelabnyc/django-oscar-bundles
-.. _django-oscar-bluelight: https://github.com/thelabnyc/django-oscar-bluelight
-.. _`Bluelight Specials`: https://en.wiktionary.org/wiki/blue-light_special
-.. _django-oscar-cch: https://github.com/thelabnyc/django-oscar-cch
-.. _`CCH Sales Tax Office`: http://www.salestax.com/solutions/calculation/cch-salestax-office/
-.. _django-oscar-cybersource: https://github.com/thelabnyc/django-oscar-cybersource
-.. _`CyberSource Secure Acceptance Silent Order Post`: https://www.cybersource.com/products/payment_security/secure_acceptance_silent_order_post/
-.. _django-oscar-wfrs: https://github.com/thelabnyc/django-oscar-wfrs
-.. _`Wells Fargo Retail Services`: https://retailservices.wellsfargo.com/
-.. _django-oscar-zarinpal-gateway: https://github.com/mojtabaakbari221b/django-oscar-zarinpal-gateway
 
 
-Videos
-------
 
-Videos with talks about Oscar:
 
-* `An introduction to Django-oscar`_ by `David Winterbottom`_, DjangoCon Europe 2014
-* `Oscar and the art of transactional Django applications`_ by `David Winterbottom`_, PyCon PL 2014
-* `The Tale of Oscar and the API`_ by `Kees Hink`_, PyGrunn 2017
-
-.. _`An introduction to Django-oscar`: https://youtu.be/o4ol6EzGDSw
-.. _`Oscar and the art of transactional Django applications`: https://youtu.be/datKUNTKYz8
-.. _`The Tale of Oscar and the API`: https://youtu.be/YPnKoiyGIHM
-.. _`Kees Hink`: https://github.com/khink
-
-License
--------
-
-Oscar is released under the permissive `New BSD license`_ (see summary_).
-
-.. _summary: https://tldrlegal.com/license/bsd-3-clause-license-(revised)
-
-.. _`New BSD license`: https://github.com/django-oscar/django-oscar/blob/master/LICENSE
 
 Contributing to the Project
 ---------------------------
@@ -323,27 +233,3 @@ Making clear and fair decisions about disciplinary actions for violations of the
 Scope
 This Code of Conduct applies to all contributors, both online and offline, in all project spaces, including but not limited to project forums, mailing lists, GitHub repositories, and in-person events.
 
-Enforcement
------------
-
-If you witness or experience unacceptable behavior, or have any other concerns, please notify the project maintainers at viggo@highbiza.nl & joey@highbiza.nl. All reports will be kept confidential, and the project maintainers will work with you to determine a resolution.
-
-We reserve the right to take any action deemed necessary to enforce this Code of Conduct, including but not limited to warning the offender, banning the offender from the project's spaces, or reporting the offender to relevant authorities.
-Case studies
-------------
-
-Oscar is still in active development but is used in production by a range of
-companies, from large multinationals to small, boutique stores. See
-http://oscarcommerce.com/cases.html for an overview.
-
-Many more on the way.  If you use Oscar in production, please `let us know`_.
-
-.. _`let us know`: https://github.com/django-oscar/oscarcommerce.com/issues
-
-Looking for commercial support?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If you are interested in having an Oscar project built for you, or for
-development of an existing Oscar site then please get in touch via `info@oscarcommerce.com`_.
-
-.. _`info@oscarcommerce.com`: mailto:info@oscarcommerce.com
